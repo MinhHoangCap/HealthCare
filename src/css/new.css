@@ -1,0 +1,15 @@
+.new-card {
+  display: flex;
+  flex-direction: column;
+}
+.new-card__img {
+  width: 100%;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.arrow-icon {
+  margin-left: 5px;
+}/*# sourceMappingURL=new.css.map */

@@ -1,0 +1,23 @@
+.feedbacks {
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 1200px;
+  padding: 0 50px;
+}
+.feedbacks__heading {
+  padding: 64px 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.feedbacks__heading::after {
+  content: "";
+  display: block;
+  border: #fff 1px solid;
+  border-width: 1px;
+  height: 1px;
+  width: 56px;
+  border-radius: 10px;
+  margin: 10px auto;
+  background-color: #fff;
+}/*# sourceMappingURL=feedbacks.module.css.map */

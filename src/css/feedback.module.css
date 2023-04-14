@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card-img {
+  flex: 1;
+}
+.card-text {
+  flex: 3;
+}
+.card .user__infomation {
+  flex: 2;
+}/*# sourceMappingURL=feedback.module.css.map */

@@ -1,0 +1,73 @@
+.page-btn {
+  padding: 10px 0px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  color: #458FF6;
+  border: #458FF6 1px solid;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.heading {
+  padding: 64px 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.heading::after {
+  content: "";
+  display: block;
+  border: #000 1px solid;
+  border-width: 1px;
+  height: 1px;
+  width: 56px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #000;
+}
+
+.mg-center::after {
+  margin: 10px auto !important;
+}
+
+.our-services {
+  max-width: 1200px;
+  width: 100%;
+}
+.our-services .text-content {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: #7D7987;
+}
+.our-services .services__list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+.our-services .services__item {
+  padding: 20px;
+}
+.our-services .services__heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.our-services .services__content {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #7D7987;
+}
+.our-services .services__img {
+  margin-bottom: 20px;
+}
+.our-services .services .service {
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}/*# sourceMappingURL=services.css.map */

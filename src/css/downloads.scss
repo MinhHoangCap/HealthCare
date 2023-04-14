@@ -1,0 +1,38 @@
+@import "base";
+
+.downloads{
+    display: flex;
+    
+    &__img{
+        padding: 10px;
+    }
+    &__text{
+
+        padding: 130px;
+        text-align: left;
+    }
+    // &__heading{
+    //     font-size: 2rem;
+    //     line-height: 1.5rem;
+    //     font-weight: bold;
+
+    //     position: relative;
+    //     margin-bottom: 20px;
+    //     &::after{
+    //         content: "";
+    //         // position: a;
+    //         display: block;
+    //         border: #000 1px solid;
+    //         border-width: 1px;
+    //         height: 1px;
+    //         width: 56px;
+    //         border-radius: 10px;
+    //         margin-top: 10px;
+    //         background-color: #000;
+    //     }
+    // }
+    &__content{
+        text-align: left;
+    }
+    
+}

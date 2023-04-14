@@ -1,0 +1,89 @@
+.header {
+  width: 80vw;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+.header__bottom {
+  display: flex;
+}
+.header__text {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.header__illustration {
+  flex: 1;
+}
+.header__illustration img {
+  width: 100%;
+}
+.header__heading {
+  font-weight: 700;
+  font-size: 48px;
+}
+.header__content {
+  font-style: normal;
+  font-weight: 300;
+  color: #7D7987;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-bottom: 30px;
+}
+.header__consult-btn {
+  padding: 10px 40px;
+  border-radius: 20px;
+  color: white;
+  background: #458FF6;
+  border: none;
+}
+
+.top-nav .nav-links {
+  display: flex;
+  list-style-type: none;
+}
+.top-nav .nav-link {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.top-nav .nav-link:hover {
+  font-weight: bold;
+  animation: linkHover ease-in;
+}
+
+.logo {
+  display: flex;
+  line-height: 41px;
+  cursor: pointer;
+}
+.logo__img {
+  padding: 5px;
+  font-size: 1.25rem;
+  background-color: #458FF6;
+  color: white;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+}
+.logo__name {
+  margin-left: 5px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes linkHover {
+  from {
+    font-weight: 100;
+  }
+  to {
+    font-weight: bold;
+  }
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,60 @@
+// $content-width: 80vw;
+// $blue:  #458FF6;
+// @import url(./_base.scss);
+@import "base";
+.our-services{
+    max-width: 1200px;
+    width: 100%;
+    .text{
+        // &-heading{
+        //     font-size: 2.5rem;
+        //     font-weight: bold;
+        //     padding: 20px;
+        // }
+        &-content{
+            font-size: 1.3rem;
+            line-height: 1.5rem;
+
+            color: #7D7987;
+        }
+    }
+
+    .services{
+        
+        &__list{
+    
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            list-style-type: none;
+            width: 100%;
+            padding: 0;
+        }
+        &__item{
+            padding: 20px;
+            
+            
+        }
+        &__heading{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        &__content{
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            color: #7D7987;
+        }
+        &__img{
+            margin-bottom: 20px;
+        }
+        .service{
+            width: 350px;
+            height: 200px;
+            padding: 10px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        }
+    
+    }
+}
