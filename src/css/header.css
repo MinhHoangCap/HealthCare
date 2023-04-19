@@ -1,5 +1,6 @@
 .header {
   width: 80vw;
+  margin: 0 auto;
 }
 .header__top {
   display: flex;
@@ -38,6 +39,12 @@
   color: white;
   background: #458FF6;
   border: none;
+  transition-duration: 0.3s;
+}
+.header__consult-btn:hover {
+  color: #458FF6;
+  background: white;
+  border: #458FF6 1px solid;
 }
 
 .top-nav .nav-links {

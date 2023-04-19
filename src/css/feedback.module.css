@@ -1,14 +1,21 @@
-.card {
+.feedback {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 20px 0;
 }
-.card-img {
+.feedback_img {
   flex: 1;
 }
-.card-text {
+.feedback_text {
   flex: 3;
 }
-.card .user__infomation {
+.feedback .user__infomation {
   flex: 2;
+}
+
+@media (max-width: 720px) {
+  .feedback {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=feedback.module.css.map */

@@ -1,6 +1,6 @@
 .new-card {
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
 }
 .new-card__img {
   width: 100%;

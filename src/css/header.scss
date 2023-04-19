@@ -2,6 +2,7 @@ $content-width: 80vw;
 $blue:  #458FF6;
 .header{
     width: $content-width;
+    margin: 0 auto;
     &__top{
         display: flex;
         justify-content: space-between;
@@ -39,6 +40,13 @@ $blue:  #458FF6;
         color: white;
         background: $blue;
         border: none;
+        transition-duration: 0.3s;
+        &:hover{
+            color: $blue;
+            background: white; 
+            border: $blue 1px solid; 
+
+        }
     }
 }
 .top-nav{

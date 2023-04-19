@@ -1,46 +1,23 @@
-// import React, { Component } from 'react'
-// import {Container, Row, Col} from 'react-bootstrap'
-
-// // import Container from 'react-bootstrap/Container'
-// // import Row from 'react-bootstrap/Row'
-// // import Col from 'react-bootstrap/Col'
-
-// export const Footer = () => {
-//   return (
-//     <footer className='footer'>
-//         <Container>
-//       <Row>
-//         <Col>1 of 3</Col>
-//         <Col xs={6}>2 of 3 (wider)</Col>
-//         <Col>3 of 3</Col>
-//       </Row>
-//       <Row>
-//         <Col>1 of 3</Col>
-//         <Col xs={5}>2 of 3 (wider)</Col>
-//         <Col>3 of 3</Col>
-//       </Row>
-//     </Container>
-//     </footer>
-//   )
-// }
 import React, { Component } from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
-import { Logo } from '../components/Logo'
-
+// import { Logo } from '../components/Logo'
+import styles from '../css/footer.module.css'
+import { LogoFooter } from '../components/LogoFooter'
 export default class Footer extends Component {
   render() {
     return (
-      <footer>
+      <footer className={styles.footer}>
         <Container>
           <Row>
-            <Col md={6}>
-              <Logo/>
-                <p className="footer-content">
-                  Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
-                </p>
-                <p className="footer-copyright">
-                  ©Trafalgar PTY LTD 2020. All rights reserved
-                </p>
+            <Col md={4}>
+              {/* <Logo/> */}
+              <LogoFooter/>
+              {/* <p className="footer-content">
+                Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
+              </p>
+              <p className="footer-copyright">
+                ©Trafalgar PTY LTD 2020. All rights reserved
+              </p> */}
             </Col>
             <Col md={2}>
               <div className="page-heading">Company</div>
@@ -62,14 +39,22 @@ export default class Footer extends Component {
 
               </ul>
             </Col>
-            <Col md={2}><div className="page-heading">Help</div>
-              <ul className="page-elements">
+            <Col md={4}>
+              <div className="page-heading">Help</div>
+              {/* <ul className="page-elements">
                 <li className="page-element">Help center</li>
                 <li className="page-element">Contact support</li>
                 <li className="page-element">Instructions</li>
                 <li className="page-element">How it works</li>
 
-              </ul>
+              </ul> */}
+              <div className="socials">
+                <div className="socials__list">
+                  <div className="socials__item">
+                    
+                  </div>
+                </div>
+              </div>
             </Col>
           </Row>
           

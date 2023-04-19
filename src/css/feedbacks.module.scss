@@ -1,8 +1,9 @@
 .feedbacks{
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);;
-    border-radius: 24px;
+    border-radius: 0 24px 24px 0; 
     color: rgba(255, 255, 255, 0.9);
     max-width: 1200px;
+    width: 80%;
     padding: 0 50px;
     &__heading{
         padding: 64px 0;
@@ -20,5 +21,26 @@
             margin:10px auto ;
             background-color: #fff;
         }
+    }
+}
+.heading{
+    padding: 64px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    &::after{
+        content: "";
+        display: block;
+        border: #fff 1px solid;
+        border-width: 1px;
+        height: 1px;
+        width: 56px;
+        border-radius: 10px;
+        margin: 10px auto;
+        background-color: #fff;
+    }
+}
+@media (max-width:720px){
+    .feedbacks{
+        width: 90%;
     }
 }

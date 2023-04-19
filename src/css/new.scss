@@ -1,12 +1,17 @@
-.new-card
+.new
 {
-    display: flex;
-    flex-direction: column;
-    &__img{
-    width: 100%;
+
+    &-card{
+        // display: flex;
+        // flex-direction: column;
+        margin: 0 auto;
+        width: 80%;
+        &__img{
+        width: 100%;
+        }
+    
+    
     }
-
-
 }
 .card-link{
     text-decoration: none;

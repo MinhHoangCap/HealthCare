@@ -12,8 +12,22 @@ export const News = () => {
 
 
         <Swiper 
-         spaceBetween={10}
-         slidesPerView={3}
+        breakpoints={{
+            992:{
+                spaceBetween:10,
+                slidesPerView:3
+            },
+            768:{
+                spaceBetween: 10,
+                slidesPerView: 2,
+
+            },
+            576:{
+                spaceBetween: 0,
+                slidesPerView:1
+            }
+
+        }}
          modules={[Navigation, Pagination, Autoplay]}
          navigation
          pagination={{clickable: true}}

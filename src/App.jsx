@@ -7,6 +7,7 @@ import { Feedbacks } from './pages/Feedbacks'
 import { News } from './pages/News'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './pages/Footer'
+import { ScrollContainer, ScrollPage } from 'react-scroll-motion'
 
 
 function App() {
@@ -14,13 +15,39 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <OurServices/>
-      <LeadingProvider/>
-      <Downloads/>
-      <Feedbacks/>
-      <News/>
-      <Footer/>
+      <ScrollContainer>
+        <ScrollPage>
+          <Header/>
+        </ScrollPage>
+        <ScrollPage>
+          <OurServices/>
+
+        </ScrollPage>
+        <ScrollPage>
+          <LeadingProvider/>
+        </ScrollPage>
+          
+        <ScrollPage>
+          <Downloads/>
+        </ScrollPage>
+
+          
+        <ScrollPage>
+        <Feedbacks/>
+        </ScrollPage>
+
+          
+        <ScrollPage>
+        <News/>
+        </ScrollPage>
+
+          
+        <Footer/>
+     
+
+          
+        
+      </ScrollContainer>
     </div>
   )
 }

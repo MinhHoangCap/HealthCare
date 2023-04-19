@@ -6,7 +6,7 @@ import "../css/new.css"
 export const New = () => {
   return (
     <div className='new'>
-        <Card className='new-card' style={{ width: '18rem' }}>
+        <Card className='new-card'>
             <Card.Img className='new-card__img' variant="top" src="./image/new.png" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
